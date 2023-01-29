@@ -1,0 +1,40 @@
+{
+    "name": "waelthon",
+    "description": "اهلا بك في تنصيب صيد يوزرات تأكد من ملأ جميع الفراغات  !",
+    "logo" : "https://telegra.ph/file/0ef85373a78b8ec954d2b.jpg",
+    "stack": "container",
+    "repository": "https://github.com/wailasd/NO-NAME-1",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/SS7SS/env/blob/main/.env",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "api_id",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش",
+            "value": "api_hash",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن البوت",
+            "value": "token",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "@username",
+            "required": true
+        }
+    }
+}
